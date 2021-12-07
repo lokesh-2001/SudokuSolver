@@ -13,6 +13,9 @@ public class sudokuSol{
 	            {0, 0, 7, 0, 4, 0, 2, 0, 3} 
 	          };
 	        
+			System.out.println("Input Board: ");
+			System.out.println();
+			System.out.println();
 	        printBoard(board);
 	        
 	        if (solveBoard(board)) {
@@ -21,7 +24,9 @@ public class sudokuSol{
 	        else {
 	          System.out.println("Unsolvable board :(");
 	        }
-	        
+			System.out.println("Output Board: ");
+			System.out.println();
+			System.out.println();	        
 	        printBoard(board);
 	        
 	}
